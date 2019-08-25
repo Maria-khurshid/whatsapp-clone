@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(214, 236, 235);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0%;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #064e45;
+    padding: 47px 0px;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+
+ul {
+    width: 30%;
+    margin: 0;
+    margin: 15px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.wtsApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+    padding: 0em;
+}
+
+img {
+    height: 4em;
+    width: 4em;
+    border-radius: 50px;
+}
+
+h4,
+p {
+    margin: 0;
+    padding: 5px;
+}
+
+.msgTime {
+    font-size: 13px;
+}
+
+.mName {
+    width: 200px;
+    padding: 5px;
+}
+
+.mNumb {
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+.mUnread {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(57, 172, 82);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 45px;
+    color: white;
+}
+
+.firstLine {
+    font-weight: bold;
+}
+
+@media screen and (max-width:780px) {
+    .wtsApp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+        padding: 0px;
+        margin: 10px -45px;
+    }
+    h4,
+    p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.7em;
+    }
+    span {
+        margin-left: 10px;
+    }
+    .msgTime {
+        font-size: 13px;
+    }
+    .mName {
+        width: 200px;
+        padding: 5px;
+    }
+    .mNumb {
+        font-size: 12px;
+        padding-top: 3px;
+    }
+    .mUnread {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: rgb(57, 172, 82);
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+        margin-left: 45px;
+        color: white;
+    }
+    img {
+        height: 4em;
+        width: 4em;
+        border-radius: 50px;
+        margin-left: 30px;
+    }
+    .header {
+        background-color: #064e45;
+        padding: 17px 0px;
+        display: flex;
+        color: aliceblue;
+        justify-content: space-evenly;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 781px) and (max-width: 967px) {
+    h4,
+    p {
+        margin: 0;
+        padding: 5px;
+    }
+    .msgTime {
+        font-size: 13px;
+    }
+    .mName {
+        width: 200px;
+        padding: 5px;
+    }
+    .mNumb {
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .mUnread {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: rgb(57, 172, 82);
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+        margin-left: 45px;
+        color: white;
+    }
+    img {
+        height: 5em;
+        width: 5em;
+        border-radius: 50px;
+    }
+}
